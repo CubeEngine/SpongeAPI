@@ -100,6 +100,10 @@ dependencies {
     api("org.spongepowered:math:2.0.0-SNAPSHOT")
     api("org.spongepowered:noise:2.0.0-SNAPSHOT")
 
+    // Observability
+    api("io.prometheus:simpleclient:0.10.0")
+    api("io.opentracing:opentracing-api:0.33.0")
+
     testImplementation("junit:junit:4.13.1")
     testImplementation("org.hamcrest:hamcrest:2.2")
     testImplementation("org.mockito:mockito-core:3.6.28")
