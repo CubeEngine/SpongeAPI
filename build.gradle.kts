@@ -102,7 +102,6 @@ dependencies {
 
     // Observability
     api("io.prometheus:simpleclient:0.10.0")
-    api("io.opentracing:opentracing-api:0.33.0")
 
     testImplementation("junit:junit:4.13.1")
     testImplementation("org.hamcrest:hamcrest:2.2")
